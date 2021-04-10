@@ -5,7 +5,7 @@ const minusButton = document.getElementById("minus-button");
 const resetButton = document.getElementById("reset-button");
 const startingValue = 0;
 
-// Invoke function to declare starting value
+// Invoke function to assign starting value
 setZeroValue();
 
 // Set starting value to zero
