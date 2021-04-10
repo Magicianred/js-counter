@@ -27,6 +27,7 @@ body {
 
 #main-div {
  border-radius: 50px;
+ 
 }
 
 #plus-column {
@@ -50,3 +51,10 @@ body {
    opacity: 0.9;
 }
 
+#reset-button {
+   opacity: 0.9;
+}
+
+#reset-column {
+   width: 40%;
+}

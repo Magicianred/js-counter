@@ -2,6 +2,7 @@
 const counterText = document.getElementById("counter-value");
 const plusButton = document.getElementById("plus-button");
 const minusButton = document.getElementById("minus-button");
+const resetButton = document.getElementById("reset-button");
 const startingValue = 0;
 
 // Invoke function to declare starting value
@@ -26,4 +27,8 @@ minusButton.addEventListener("click", function(e) {
     }
 })
 
+// Reset counter to zero
+resetButton.addEventListener("click", function(e) {
+    counterText.innerText = Number(startingValue);
+})
 
