@@ -32,34 +32,41 @@ body {
 }
 
 #plus-column {
-   width: 40%;
+   width: 19%;
 
 }
 
 #minus-column {
-   width: 40%;
+   width: 19%;
    
 }
 
 #counter-value {
    border-radius: 5px;
    opacity: 0.9;
-
+   background-color: white;
 }
 
 #minus-button {
    opacity: 0.9;
+  
 }
 
 #plus-button {
    opacity: 0.9;
    
+   
 }
 
 #reset-button {
    opacity: 0.9;
+   
 }
 
 #reset-column {
    width: 40%;
+}
+
+#first-row {
+   margin-bottom: -15px;
 }
