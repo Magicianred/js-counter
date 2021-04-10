@@ -11,6 +11,8 @@ It's a simple counter built using:
 * Javascript 
 * CSS and Bootstrap 5
 
+The buttons are handled through "click" Event Listeners that interact with the counter value and modify it based on the user's action.
+
 [![test.gif](https://i.postimg.cc/c18LRx0X/test.gif)](https://postimg.cc/23rYmfqZ)
 
 
