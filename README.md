@@ -1,6 +1,6 @@
 # JS Counter
 ___
- __Try it at <span style="text-decoration: underline; font-size: 25px;">[this link](https://antonio-riccelli.github.io/js-counter/)__ </span>
+ __Try it at <span style="text-decoration: underline; font-size: 2em;">[this link](https://antonio-riccelli.github.io/js-counter/)__ </span>
 ___
 ## Description
 
