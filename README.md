@@ -11,7 +11,7 @@ It's a simple counter built using:
 * Javascript 
 * CSS and Bootstrap 5
 
-[![test.gif](https://i.postimg.cc/yNxmf4rv/test.gif)](https://postimg.cc/gw9LJ5pZ)
+[![test.gif](https://i.postimg.cc/c18LRx0X/test.gif)](https://postimg.cc/23rYmfqZ)
 
 
 
