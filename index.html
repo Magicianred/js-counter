@@ -9,7 +9,7 @@
     <meta name="title" content="Javascript Counter">
     <link rel="image_src" href="img/screenshot.jpg">
     <meta property="og:title" content="Javascript Counter">
-    <meta property="og:description" content="Personal Page">
+    <meta property="og:description" content="Javascript Counter">
     <meta property="og:image" content="img/screenshot.jpg">
     <meta property="og:url" content="https://antonio-riccelli.github.io/js-counter/">
     <meta name="twitter:card" content="summary_large_image">
@@ -32,26 +32,17 @@
         <div class="d-block h-50  text-center" id="first-row">
 
             <!-- First row only column -->
-            <div class="d-block h-100 ">
-                <div id="counter-value" class="w-25 m-auto h-50 fs-1 border border-3 border-dark table-hover lh-lg">
-                </div>
+            <div class="d-block h-100" id="counter-div">
+                <!-- JavaScript creates and inserts both div and counter value here -->
             </div>
         </div>
 
         <!-- Second row, containing the two +/- buttons/columns -->
-        <div class="d-block w-100 h-50 text-center">
+        <div class="d-block w-100 h-50 text-center" id="buttons-row">
 
-            <!-- plus button column -->
-            <div class="d-inline-block  h-auto " id="plus-column">
-                <button id="plus-button" class="btn btn-light btn-outline-dark fs-1 w-100 mt-4 border-3">+</button>
-            </div>
+            <!-- JavaScript creates and inserts both buttons column div's -->
 
-            <!-- minus button column -->
-            <div class="d-inline-block h-auto" id="minus-column">
-                <button id="minus-button" class="btn btn-light btn-outline-dark fs-1 w-100 mt-4 btn-outline-dark border-3">-</button>
-            </div>
         </div>
-
         <!-- Third row, containing the reset button -->
         <div class="d-block w-100 h-50 text-center">
 
