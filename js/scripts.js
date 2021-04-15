@@ -1,5 +1,4 @@
-// Declare initial variables for counter, buttons and counter value and their content and attributes
-
+// Assign const for fixed values, such as content and bootstrap classes
 const resetButton = document.getElementById("reset-button");
 const counterValueClasses = "w-25 m-auto h-50 fs-1 border border-3 border-dark table-hover lh-lg";
 const buttonsColClasses = "d-inline-block h-auto px-1"; 
@@ -12,25 +11,21 @@ const operators = ["+", "-"];
 // Invoke function to create "counter-value" div
 addDiv();
 
-// Loop invokes function to create two button columns
-
+// For loop invokes function to create two button columns
 for (let i = 0; i <= 1; i++) {
 addCols(i);
 }
 
-
-// Invoke function to create buttons
+// For loop invoke function to create plus and minus buttons
 for (let i = 0; i <= 1; i++) {
 addButtons(i);
 }
-
-
 
 // Get counter element and assign counter starting value
 const counterText = document.getElementById("counter-value");
 setZeroValue();
 
-// Create "counter-value" div and append to parent element
+// Create "counter-value" div and insert in HTML
 function addDiv() {
     let counterValueDiv = document.createElement("div");
     counterValueDiv.className = counterValueClasses;
@@ -38,7 +33,7 @@ function addDiv() {
     document.getElementById("counter-div").appendChild(counterValueDiv);
 }
 
-// Create button columns
+// Create button columns and insert in HTML
 function addCols(index) {
 let buttonColumn = document.createElement("div");
 buttonColumn.className = buttonsColClasses;
@@ -46,7 +41,7 @@ buttonColumn.id = columnIds[index];
 document.getElementById("buttons-row").appendChild(buttonColumn);
 }
 
-// Create buttons
+// Create buttons and insert in HTML
 function addButtons(index) {
 let buttonElement = document.createElement("button");
 buttonElement.className = buttonsClasses;
@@ -55,12 +50,12 @@ buttonElement.innerText = operators[index];
 document.getElementById(columnIds[index]).appendChild(buttonElement);
 }
 
-
 // Set starting value to zero
 function setZeroValue() {
     counterText.innerText = Number(startingValue);
 }
 
+// Assign const, enabling event listeners to increase/decrease value
 const plusButton = document.getElementById("plus-button");
 const minusButton = document.getElementById("minus-button");
 
