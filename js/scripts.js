@@ -16,7 +16,7 @@ for (let i = 0; i <= 1; i++) {
 addCols(i);
 }
 
-// For loop invoke function to create plus and minus buttons
+// For loop invokes function to create plus and minus buttons
 for (let i = 0; i <= 1; i++) {
 addButtons(i);
 }
